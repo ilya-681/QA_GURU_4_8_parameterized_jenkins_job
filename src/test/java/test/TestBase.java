@@ -1,4 +1,4 @@
-package test;
+/*package test;
 
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -49,4 +49,4 @@ public class TestBase {
             attachVideo();
         closeWebDriver();
     }
-}
+}*/

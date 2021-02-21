@@ -74,4 +74,27 @@ public class RandomUtils {
         return getRandomString(5) + timestamp + emailDomain;
     }
 
+    public static String getRandomGender() {
+        String[] genderList = {"Male", "Female", "Other"};
+        String gender = genderList[(int) Math.floor(Math.random() * genderList.length)];
+        return  gender;
+    }
+
+    public static String getRandomMonth() {
+        String[] monthList = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+        String month = monthList[(int) Math.floor(Math.random() * monthList.length)];
+        return  month;
+    }
+
+    public static String getRandomSubject() {
+        String[] subjectList = {"English", "Chemistry", "Commerce"};
+        String subject = subjectList[(int) Math.floor(Math.random() * subjectList.length)];
+        return  subject;
+    }
+
+    public static String getRandomHobbie() {
+        String[] hobbiesList = {"Music", "Reading", "Sports"};
+        String hobbie = hobbiesList[(int) Math.floor(Math.random() * hobbiesList.length)];
+        return  hobbie;
+    }
 }
