@@ -1,3 +1,4 @@
+/*
 package docs;
 
 import org.junit.jupiter.api.Test;
@@ -32,4 +33,4 @@ public class RandomExamples {
         String randomEmail = getRandomEmail();
         System.out.println(randomEmail);
     }
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 package docs;
 
 import org.junit.jupiter.api.*;
@@ -56,4 +57,4 @@ public class Junit5_Annotations {
 //    someTest here
 //    afterEach here
 //    shutdown here
-}
+}*/
