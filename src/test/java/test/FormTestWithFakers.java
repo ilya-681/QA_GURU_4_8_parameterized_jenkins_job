@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static utils.RandomUtils.*;
 
-public class FormTestWithFakers {
+public class FormTestWithFakers extends TestBase {
 
     @Test
     void dataAfterSubmitForm() {

@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class FormTest {
+public class FormTest extends TestBase {
 
     @Test
     void dataAfterSubmitForm() {
