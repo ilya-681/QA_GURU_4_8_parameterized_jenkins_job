@@ -14,6 +14,7 @@ public class TestBase {
     @BeforeAll
     static void setup() {
         Configuration.startMaximized = true;
+        Configuration.browser = System.getProperty("browser", "chrome");
         addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
