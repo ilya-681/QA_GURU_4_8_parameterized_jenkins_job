@@ -1,6 +1,7 @@
 package test;
 
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 
@@ -14,6 +15,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class FormTest extends TestBase {
 
     @Test
+    @DisplayName("Successful fill form test")
     void dataAfterSubmitForm() {
         open("https://demoqa.com/automation-practice-form");
         $("#firstName").setValue("Bob");

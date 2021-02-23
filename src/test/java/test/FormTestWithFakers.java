@@ -1,6 +1,7 @@
 package test;
 
 import com.github.javafaker.Faker;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
@@ -13,6 +14,7 @@ import static utils.RandomUtils.*;
 public class FormTestWithFakers extends TestBase {
 
     @Test
+    @DisplayName("Successful fill form test with Fakers")
     void dataAfterSubmitForm() {
         Faker faker = new Faker();
 
