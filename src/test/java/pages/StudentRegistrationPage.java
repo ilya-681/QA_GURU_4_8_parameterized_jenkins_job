@@ -22,7 +22,7 @@ public class StudentRegistrationPage {
             yearOfBirth = "1988",
             subject = "Chemistry",
             hobbies = "Sports",
-            picture = "1.png",
+            picture = "1.PNG",
             currentAddress = "Montenegro 123",
             state = "Uttar Pradesh",
             city = "Merrut";
