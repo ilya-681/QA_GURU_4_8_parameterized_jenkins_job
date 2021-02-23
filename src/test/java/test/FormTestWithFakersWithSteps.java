@@ -35,7 +35,7 @@ public class FormTestWithFakersWithSteps extends TestBase {
                 state = "NCR",
                 city = "Delhi";
 
-        step("Open students registration form", () ->  open("https://demoqa.com/automation-practice-form"));
+        step("Open students registration form", () -> open("https://demoqa.com/automation-practice-form"));
 
         step("Fill students registration form", () -> {
             $("#firstName").setValue(firstName);
@@ -68,7 +68,7 @@ public class FormTestWithFakersWithSteps extends TestBase {
             $(byText(city)).click();
         });
 
-        step("Send students registration form", () -> $("#submit").click()));
+        step("Send students registration form", () -> $("#submit").click());
 
         step("Verify successful form submit", () -> $(".table-responsive").shouldHave(text(firstName), text(lastName),
                 text(userEmail), text(gender), text(userPhoneNumber),

@@ -31,6 +31,7 @@ public class StudentRegistrationPage {
     public void openPage() {
         open("https://demoqa.com/automation-practice-form");
     }
+
     @Step("Fill students registration form")
     public void fillForm() {
         $("#firstName").setValue(firstName);
@@ -73,6 +74,6 @@ public class StudentRegistrationPage {
         $(".table-responsive").shouldHave(text(firstName), text(lastName),
                 text(userEmail), text(gender), text(userPhoneNumber),
                 text(dateOfBirth + " " + monthOfBirth + "," + yearOfBirth), text(subject),
-                text(hobbies), text(picture), text(currentAddress), text(state + " " + city);
+                text(hobbies), text(picture), text(currentAddress), text(state + " " + city));
     }
 }

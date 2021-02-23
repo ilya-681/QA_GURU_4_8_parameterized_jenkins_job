@@ -21,6 +21,8 @@ allure {
     }
 }
 
+sourceCompatibility = 1.8
+
 dependencies {
     testImplementation(
             "com.codeborne:selenide:$selenideVersion",
